@@ -46,6 +46,7 @@
 
 @property (readonly) USArrayWrapper *flatten;
 @property (readonly) USArrayWrapper *(^without)(NSArray *values);
+@property (readonly) USArrayWrapper *(^difference)(NSArray *values);
 
 @property (readonly) USArrayWrapper *shuffle;
 
